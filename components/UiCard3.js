@@ -3,7 +3,7 @@ import { SiCodeproject } from 'react-icons/si'
 
 const UiCard3 = () => {
   return (
-    <div className='md:space-y-24 space-y-6 md:mt-0 mt-28'>
+    <div className='md:space-y-24 space-y-6 md:mt-0 mt-28 md:p-0 p-6'>
       <div className='flex justify-center'>
         <img className='h-6 md:h-14' src="https://www.techarion.com/svg/ourservices/UXDESIGNPROCESS.svg" alt="" />
       </div>
@@ -13,11 +13,11 @@ const UiCard3 = () => {
       </div>
 
 
-      <div className='relative'>
+      <div className='relative md:p-0'>
           <div className='flex justify-center'>
             <div>
-               <img className='md:mt-10 md:ml-10 bg-red-500 p-1 md:p-4 rounded-full' src="https://www.techarion.com/images/ourservices/Saly-26.png" alt="" />
-               <h1 className='md:text-3xl text-xs text-center'>Research</h1>
+               <img className='md:mt-10  ml-4 md:ml-10 bg-red-500 p-1 md:p-4 rounded-full' src="https://www.techarion.com/images/ourservices/Saly-26.png" alt="" />
+               <h1 className='md:text-3xl md:ml-0 ml-2 text-xs text-center'>Research</h1>
             </div>
                <img className='md:w-[23%] md:h-[20%] h-8' src="https://www.techarion.com/svg/ourservices/Vector8.svg" alt="" />
                <img className='md:w-[23%] md:h-[20%] h-8' src="https://www.techarion.com/svg/ourservices/Vector7.svg" alt="" />
@@ -28,7 +28,7 @@ const UiCard3 = () => {
           </div>
 
 
-          <div className='md:text-7xl md:w-28 md:h-36 md:pt-7 md:pl-4 rounded-3xl ml-[45%] md:top-16 top-4 absolute z-30'>
+          <div className='md:text-7xl md:w-28 md:h-36 md:pt-7 md:pl-4 rounded-3xl md:ml-[45%] ml-[42%] md:top-16 top-4 absolute z-30'>
                <SiCodeproject className='bg-red-400 rounded-full md:p-4  md:h-36 md:w-32 h-12 w-12 p-1'  />
                <h1 className='md:text-4xl text-lg font-bold md:mt-10'>Design</h1>
           </div>

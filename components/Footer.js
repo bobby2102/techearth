@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='pt-8 text-center text-xl '>
      <div className='md:flex md:justify-center space-y-4 md:space-y-8 md:space-x-80'>
       <div>
-      <Link href="/" ><a><h1 className='pl-48 md:pl-0 text-xl font-semibold md:text-5xl w-36 md:w-full  md:border-2 p-1'>TECHEARTH</h1></a></Link>
+      <Link href="/" ><a><h1 className='pl-32 md:pl-0 text-xl font-semibold md:text-5xl w-36 md:w-full  md:border-2 p-1'>TECHEARTH</h1></a></Link>
         <div className='flex justify-center space-x-4 md:flex md:justify-between mt-2 md:mt-6 text-sm md:text-4xl text-slate-400 md:text-white'>
           <AiFillFacebook />
           <AiOutlineInstagram />

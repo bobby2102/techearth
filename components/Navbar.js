@@ -21,7 +21,7 @@ const Navbar = () => {
          <Link href="/ui" ><a className='hover:underline hover:cursor-pointer'>UI/UX</a></Link>
          <Link href="/mobile" ><a className='hover:underline hover:cursor-pointer'>Mobile Dev</a></Link>
          <Link href="/web" ><a className='hover:underline hover:cursor-pointer'>Web Dev</a></Link>
-         <Link href="/contact"><a className='border-2 rounded-r-full rounded-l-full pt-1 pb-1 pl-6 pr-6 cursor-pointer'>Contact Us</a></Link>
+         <Link href="/contact"><a className='border-2 rounded-r-full rounded-l-full pt-2 pb-1 pl-6 pr-6 cursor-pointer'>Contact Us</a></Link>
         </div>
 
         <div onClick={handleNav} className='block lg:hidden bg-black/40 rounded-xl p-1 '>
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
 
          <div  className={!nav ? 'fixed z-20 left-0 top-0 w-[60%] h-screen bg-black p-10 ease-in-out duration-500 md:hidden' : 'fixed left-[-190%]'}>
-            <div className='text-2xl grid space-x-4 space-y-10'>
+            <div className='text-xl grid space-x-4 space-y-10'>
             <Link href="/" ><a><h1 className='text-3xl border-2 p-1 md:text-5xl'>TECHEARTH</h1></a></Link>
             <Link href="/" ><a className='hover:underline hover:cursor-pointer'>Home</a></Link>
             <Link href="/ui" ><a className='hover:underline hover:cursor-pointer'>UI/UX</a></Link>

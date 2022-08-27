@@ -19,9 +19,9 @@ const Form = () => {
      }
 
   return (
-    <div className='bg-black/20 md:p-14 p-8 rounded-3xl'>
-     <h1 className='md:text-5xl text-xl tracking-widest md:mb-10 mb-6'>What Are You Looking For?</h1>
-      <form className='md:text-3xl md:space-y-16 space-y-8 m-8' onSubmit={submitHandler}>
+    <div className='bg-black/20 md:p-14 p-4 rounded-3xl'>
+     <h1 className='md:text-5xl text-sm font-semibold tracking-widest md:mb-10 mb-6'>What Are You Looking For?</h1>
+      <form className='md:text-3xl md:space-y-16 space-y-8 m-4' onSubmit={submitHandler}>
           <input
            className='appearance-none bg-transparent outline-none border-b min-w-full' 
            type="text" name="username" 
@@ -75,7 +75,7 @@ const Form = () => {
 
 
           <input 
-          className='border pl-28 pr-28 py-4 text-2xl' 
+          className='border md:pl-28 px-8 md:pr-28 md:py-4 py-1 md:text-2xl text-sm' 
           type="submit" 
           name='submit'
           />
